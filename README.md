@@ -114,12 +114,42 @@ Here's one approach we could take:
 export function pointsForWord(word) {
   let points = 0;
   for (const char of word) {
+    if (["a", "e", "i", "o", "u"].includes(cexport function pointsForWord(word) {
+  let points = 0;
+  for (const char of word) {
     if (["a", "e", "i", "o", "u"].includes(char)) {
       points += 1;
     } else {
       points += 2;
     }
   }
+  return points;
+}har)) {
+      points += 1;
+    } else {
+      points += 2;
+    }
+  }export function pointsForWord(word) {
+  let points = 0;
+  for (const char of word) {
+    if (["a", "e", "i", "o", "u"].includes(cexport function pointsForWord(word) {
+  let points = 0;
+  for (const char of word) {
+    if (["a", "e", "i", "o", "u"].includes(char)) {
+      points += 1;
+    } else {
+      points += 2;
+    }
+  }
+  return points;
+}har)) {
+      points += 1;
+    } else {
+      points += 2;
+    }
+  }
+  return points;
+}
   return points;
 }
 ```
